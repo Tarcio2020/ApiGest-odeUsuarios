@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: aplicacao
+  datasource:
+    username: tarcio
+    url: jdbc:postgresql://dpg-crs0kkjtq21c73dagm4g-a.oregon-postgres.render.com:5432/db_senior_care
+    password: BamSMksHbvp0QNmC3MI2JG947fyhCMA1
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+      
+  
