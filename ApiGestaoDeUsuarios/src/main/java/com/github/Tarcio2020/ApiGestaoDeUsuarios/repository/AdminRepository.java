@@ -1,5 +1,8 @@
 package com.github.Tarcio2020.ApiGestaoDeUsuarios.repository;
 
-public interface AdminRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.github.Tarcio2020.ApiGestaoDeUsuarios.entities.AdminEntity;
+
+public interface AdminRepository extends JpaRepository<AdminEntity, Long> {
 
 }
